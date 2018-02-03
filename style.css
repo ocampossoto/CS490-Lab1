@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar{
+    background-color: black;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: 100px;
+    max-width: 500px;
+    min-height: 100vh;
+}
+#content{
+    padding-left: 25px;
+}
+
+#sidebar h3{
+    color: white;
+}
+
+button{
+    margin-top: 20px;
+}
+
+#Course{
+    background-color: black;
+    text-decoration-color: white;
+
+}
+
+.right-side{
+    padding-top: 40px;
+}
+
+.col-md-4{
+    border-style: solid;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+a{
+    color:black;
+}

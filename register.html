@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="col-sm-7" >
+                <h3 id="name">Course Name</h3>
+                <h4 id="desc">Course Description</h4>
+                <h4 id="inst">Instructor</h4>
+            </div>
+            <div class="col-sm-4 right-side">
+                <h4 id="pre">Prerequisites</h4>
+                <h4 id="credit">credit hours</h4>
+                <h4 id="duration">duration</h4>
+                <h4 id="seats">Seats Available: </h4>
+            </div>
+            <div class="col-sm-2">
+                <button onclick="goBack()">Home</button>
+                <button onClick="update_seats()">Register</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        GetValues();
+    </script>
+</div>
+</body>
+</html>

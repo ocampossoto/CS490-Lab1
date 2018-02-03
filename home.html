@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Home</title>
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="ml-1">
+                <h3>Choose your level of education</h3>
+                <select name="education">
+                    <option value="Bachelors">Bachelors</option>
+                    <option value="Masters">Masters</option>
+                </select>
+
+                <h3>Choose Semester</h3>
+                <select name="semester">
+                    <option value="Spring">Spring</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Fall">Fall</option>
+                </select>
+
+                <h3>Choose Career</h3>
+                <select name="Career">
+                    <option value="Buissness">Buissness</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Law">Law</option>
+                </select>
+                <br>
+                <button name="Search" onclick="myfunction()">Search</button>
+            </div>
+        </nav>
+
+        <!-- Page Content -->
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12"> <h1>Results</h1> </div>
+                </div>
+                <div class="row equal" id="row-one" style="display: none;">
+                    <div class="col-md-4">
+                        <a href="javascript:select('one');" id="one">
+                            <div class="col-sm-7" >
+                                <h3 id="one-name">Course Name</h3>
+                                <h4 id="one-desc">Course Description</h4>
+                                <h4 id="one-inst">Instructor</h4>
+                            </div>
+                            <div class="col-sm-4 right-side">
+                                <h4 id="one-pre">Prerequisites</h4>
+                                <h4 id="one-credit">credit hours</h4>
+                                <h4 id="one-duration">duration</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="javascript:select('two');" id="two">
+                            <div class="col-sm-7">
+                                <h3 id="two-name">Course Name</h3>
+                                <h4 id="two-desc">Course Description</h4>
+                                <h4 id="two-inst">Instructor</h4>
+                            </div>
+                            <div class="col-sm-4 right-side">
+                                <h4 id="two-pre">Prerequisites</h4>
+                                <h4 id="two-credit">credit hours</h4>
+                                <h4 id="two-duration">duration</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4" >
+                        <a href="javascript:select('three');" id="three">
+                            <div class="col-sm-7">
+                                <h3 id="three-name">Course Name</h3>
+                                <h4 id="three-desc">Course Description</h4>
+                                <h4 id="three-inst">Instructor</h4>
+                            </div>
+                            <div class="col-sm-4 right-side">
+                                <h4 id="three-pre">Prerequisites</h4>
+                                <h4 id="three-credit">credit hours</h4>
+                                <h4 id="three-duration">duration</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row" id="row-two" style="display: none;">
+                    <div class="col-md-4">
+                        <a href="javascript:select('four');" id="four">
+                            <div class="col-sm-7">
+                                <h3 id="four-name">Course Name</h3>
+                                <h4 id="four-desc">Course Description</h4>
+                                <h4 id="four-inst">Instructor</h4>
+                            </div>
+                            <div class="col-sm-4 right-side">
+                                <h4 id="four-pre">Prerequisites</h4>
+                                <h4 id="four-credit">credit hours</h4>
+                                <h4 id="four-duration">duration</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="javascript:select('five');" id="five">
+                            <div class="col-sm-7">
+                                <h3 id="five-name">Course Name</h3>
+                                <h4 id="five-desc">Course Description</h4>
+                                <h4 id="five-inst">Instructor</h4>
+                            </div>
+                            <div class="col-sm-4 right-side">
+                                <h4 id="five-pre">Prerequisites</h4>
+                                <h4 id="five-credit">credit hours</h4>
+                                <h4 id="five-duration">duration</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="javascript:select('six');" id="six">
+                            <div class="col-sm-7">
+                                <h3 id="six-name">Course Name</h3>
+                                <h4 id="six-desc">Course Description</h4>
+                                <h4 id="six-inst">Instructor</h4>
+                            </div>
+                            <div class="col-sm-4 right-side">
+                                <h4 id="six-pre">Prerequisites</h4>
+                                <h4 id="six-credit">credit hours</h4>
+                                <h4 id="six-duration">duration</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</body>
+</html>
